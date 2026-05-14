@@ -443,12 +443,10 @@ export default function BagtopLandingPage() {
                   <h3 className="text-base font-semibold text-[#1A1A1A] md:text-lg">Классическая тоут</h3>
                   <p className="text-xs text-[#777777]">Натуральная кожа, 3 цвета</p>
                 </div>
-                <div className="flex items-center justify-between gap-3">
-                  <p className="text-2xl font-bold text-[#C0392B] md:text-3xl">26 700 р.</p>
-                  <Button className="h-9 rounded-xl bg-[#C0392B] px-4 text-sm font-medium text-white hover:bg-[#C0392B]/90">
-                    ЗАКАЗАТЬ
-                  </Button>
-                </div>
+                <p className="text-2xl font-bold text-[#C0392B] md:text-3xl">26 700 р.</p>
+                <Button className="h-10 w-full rounded-xl bg-[#C0392B] text-sm font-medium text-white hover:bg-[#C0392B]/90">
+                  ЗАКАЗАТЬ
+                </Button>
               </div>
             </Card>
 
@@ -466,12 +464,10 @@ export default function BagtopLandingPage() {
                   <h3 className="text-base font-semibold text-[#1A1A1A] md:text-lg">Кросс-боди</h3>
                   <p className="text-xs text-[#777777]">Компактная, регулируемый ремень</p>
                 </div>
-                <div className="flex items-center justify-between gap-3">
-                  <p className="text-2xl font-bold text-[#C0392B] md:text-3xl">19 500 р.</p>
-                  <Button className="h-9 rounded-xl bg-[#C0392B] px-4 text-sm font-medium text-white hover:bg-[#C0392B]/90">
-                    ЗАКАЗАТЬ
-                  </Button>
-                </div>
+                <p className="text-2xl font-bold text-[#C0392B] md:text-3xl">19 500 р.</p>
+                <Button className="h-10 w-full rounded-xl bg-[#C0392B] text-sm font-medium text-white hover:bg-[#C0392B]/90">
+                  ЗАКАЗАТЬ
+                </Button>
               </div>
             </Card>
 
@@ -489,12 +485,10 @@ export default function BagtopLandingPage() {
                   <h3 className="text-base font-semibold text-[#1A1A1A] md:text-lg">Деловая сумка</h3>
                   <p className="text-xs text-[#777777]">Вместительная, с отделением для ноутбука</p>
                 </div>
-                <div className="flex items-center justify-between gap-3">
-                  <p className="text-2xl font-bold text-[#C0392B] md:text-3xl">38 700 р.</p>
-                  <Button className="h-9 rounded-xl bg-[#C0392B] px-4 text-sm font-medium text-white hover:bg-[#C0392B]/90">
-                    ЗАКАЗАТЬ
-                  </Button>
-                </div>
+                <p className="text-2xl font-bold text-[#C0392B] md:text-3xl">38 700 р.</p>
+                <Button className="h-10 w-full rounded-xl bg-[#C0392B] text-sm font-medium text-white hover:bg-[#C0392B]/90">
+                  ЗАКАЗАТЬ
+                </Button>
               </div>
             </Card>
 
@@ -512,12 +506,10 @@ export default function BagtopLandingPage() {
                   <h3 className="text-base font-semibold text-[#1A1A1A] md:text-lg">Вечерний клатч</h3>
                   <p className="text-xs text-[#777777]">Элегантный, цепочка в комплекте</p>
                 </div>
-                <div className="flex items-center justify-between gap-3">
-                  <p className="text-2xl font-bold text-[#C0392B] md:text-3xl">14 700 р.</p>
-                  <Button className="h-9 rounded-xl bg-[#C0392B] px-4 text-sm font-medium text-white hover:bg-[#C0392B]/90">
-                    ЗАКАЗАТЬ
-                  </Button>
-                </div>
+                <p className="text-2xl font-bold text-[#C0392B] md:text-3xl">14 700 р.</p>
+                <Button className="h-10 w-full rounded-xl bg-[#C0392B] text-sm font-medium text-white hover:bg-[#C0392B]/90">
+                  ЗАКАЗАТЬ
+                </Button>
               </div>
             </Card>
           </div>
