@@ -444,7 +444,7 @@ export default function BagtopLandingPage() {
                 </h3>
                 <p className="text-sm text-[#777777] md:text-base">Натуральная кожа, 3 цвета</p>
               </div>
-              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">8 900 р.</p>
+              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">26 700 р.</p>
               <p className="text-xs tracking-tight text-[#777777] md:text-sm">Рассрочка до 3 месяцев</p>
               <Button className="h-12 w-full rounded-xl bg-[#C0392B] text-base font-medium text-white hover:bg-[#C0392B]/90 md:text-lg">
                 ЗАКАЗАТЬ
@@ -466,7 +466,7 @@ export default function BagtopLandingPage() {
                 </h3>
                 <p className="text-sm text-[#777777] md:text-base">Компактная, регулируемый ремень</p>
               </div>
-              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">6 500 р.</p>
+              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">19 500 р.</p>
               <p className="text-xs tracking-tight text-[#777777] md:text-sm">Рассрочка до 3 месяцев</p>
               <Button className="h-12 w-full rounded-xl bg-[#C0392B] text-base font-medium text-white hover:bg-[#C0392B]/90 md:text-lg">
                 ЗАКАЗАТЬ
@@ -488,7 +488,7 @@ export default function BagtopLandingPage() {
                 </h3>
                 <p className="text-sm text-[#777777] md:text-base">Вместительная, с отделением для ноутбука</p>
               </div>
-              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">12 900 р.</p>
+              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">38 700 р.</p>
               <p className="text-xs tracking-tight text-[#777777] md:text-sm">Рассрочка до 4 месяцев</p>
               <Button className="h-12 w-full rounded-xl bg-[#C0392B] text-base font-medium text-white hover:bg-[#C0392B]/90 md:text-lg">
                 ЗАКАЗАТЬ
@@ -510,7 +510,7 @@ export default function BagtopLandingPage() {
                 </h3>
                 <p className="text-sm text-[#777777] md:text-base">Элегантный, цепочка в комплекте</p>
               </div>
-              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">4 900 р.</p>
+              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">14 700 р.</p>
               <p className="text-xs tracking-tight text-[#777777] md:text-sm">Рассрочка до 2 месяцев</p>
               <Button className="h-12 w-full rounded-xl bg-[#C0392B] text-base font-medium text-white hover:bg-[#C0392B]/90 md:text-lg">
                 ЗАКАЗАТЬ
