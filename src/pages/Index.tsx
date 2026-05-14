@@ -428,7 +428,7 @@ export default function BagtopLandingPage() {
 
         {/* Pricing Cards */}
         <section ref={pricingRef} className="w-full px-6 py-16 md:px-20 md:py-24 lg:px-[420px] lg:py-28">
-          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 md:gap-8 items-stretch">
             {/* Card 1 */}
             <Card className="pricing-card flex flex-col overflow-hidden rounded-2xl border border-[#F0F0F0] bg-white shadow-md group">
               <div className="aspect-square w-full overflow-hidden">
@@ -438,8 +438,8 @@ export default function BagtopLandingPage() {
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
-              <div className="flex flex-col gap-3 p-5">
-                <div>
+              <div className="flex flex-1 flex-col gap-3 p-5">
+                <div className="flex-1">
                   <h3 className="text-base font-semibold text-[#1A1A1A] md:text-lg">Классическая тоут</h3>
                   <p className="text-xs text-[#777777]">Натуральная кожа, 3 цвета</p>
                 </div>
@@ -459,8 +459,8 @@ export default function BagtopLandingPage() {
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
-              <div className="flex flex-col gap-3 p-5">
-                <div>
+              <div className="flex flex-1 flex-col gap-3 p-5">
+                <div className="flex-1">
                   <h3 className="text-base font-semibold text-[#1A1A1A] md:text-lg">Кросс-боди</h3>
                   <p className="text-xs text-[#777777]">Компактная, регулируемый ремень</p>
                 </div>
@@ -480,8 +480,8 @@ export default function BagtopLandingPage() {
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
-              <div className="flex flex-col gap-3 p-5">
-                <div>
+              <div className="flex flex-1 flex-col gap-3 p-5">
+                <div className="flex-1">
                   <h3 className="text-base font-semibold text-[#1A1A1A] md:text-lg">Деловая сумка</h3>
                   <p className="text-xs text-[#777777]">Вместительная, с отделением для ноутбука</p>
                 </div>
@@ -501,8 +501,8 @@ export default function BagtopLandingPage() {
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
-              <div className="flex flex-col gap-3 p-5">
-                <div>
+              <div className="flex flex-1 flex-col gap-3 p-5">
+                <div className="flex-1">
                   <h3 className="text-base font-semibold text-[#1A1A1A] md:text-lg">Вечерний клатч</h3>
                   <p className="text-xs text-[#777777]">Элегантный, цепочка в комплекте</p>
                 </div>
