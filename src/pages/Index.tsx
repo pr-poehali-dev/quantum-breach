@@ -430,91 +430,91 @@ export default function BagtopLandingPage() {
         <section ref={pricingRef} className="w-full px-6 py-16 md:px-20 md:py-24 lg:px-[420px] lg:py-28">
           <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
             {/* Card 1 */}
-            <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-[#F0F0F0] bg-white p-6 shadow-md md:p-8">
-              <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#FAFAFA]">
-                <img
-                  src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/682791a1-2c32-46bf-b5f0-5b0a60b0177b.jpg"
-                  alt="BAGTOP — классическая сумка-тоут"
-                  className="h-full w-full object-cover"
-                />
+            <Card className="pricing-card relative aspect-square overflow-hidden rounded-2xl border-0 shadow-md group">
+              <img
+                src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/682791a1-2c32-46bf-b5f0-5b0a60b0177b.jpg"
+                alt="BAGTOP — классическая сумка-тоут"
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 flex flex-col gap-2 p-5">
+                <div>
+                  <h3 className="text-base font-semibold text-white md:text-lg">Классическая тоут</h3>
+                  <p className="text-xs text-white/70">Натуральная кожа, 3 цвета</p>
+                </div>
+                <div className="flex items-center justify-between gap-3">
+                  <p className="text-2xl font-bold text-white md:text-3xl">26 700 р.</p>
+                  <Button className="h-9 rounded-xl bg-[#C0392B] px-4 text-sm font-medium text-white hover:bg-[#C0392B]/90">
+                    ЗАКАЗАТЬ
+                  </Button>
+                </div>
               </div>
-              <div className="flex flex-col gap-1">
-                <h3 className="text-lg font-semibold tracking-tight text-[#1A1A1A] md:text-xl">
-                  Классическая тоут
-                </h3>
-                <p className="text-sm text-[#777777] md:text-base">Натуральная кожа, 3 цвета</p>
-              </div>
-              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">26 700 р.</p>
-              <p className="text-xs tracking-tight text-[#777777] md:text-sm">Рассрочка до 3 месяцев</p>
-              <Button className="h-12 w-full rounded-xl bg-[#C0392B] text-base font-medium text-white hover:bg-[#C0392B]/90 md:text-lg">
-                ЗАКАЗАТЬ
-              </Button>
             </Card>
 
             {/* Card 2 */}
-            <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-[#F0F0F0] bg-white p-6 shadow-md md:p-8">
-              <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#FAFAFA]">
-                <img
-                  src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/f3029810-8fa0-4e8f-a806-0c5679901cd9.jpg"
-                  alt="BAGTOP — сумка через плечо"
-                  className="h-full w-full object-cover"
-                />
+            <Card className="pricing-card relative aspect-square overflow-hidden rounded-2xl border-0 shadow-md group">
+              <img
+                src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/f3029810-8fa0-4e8f-a806-0c5679901cd9.jpg"
+                alt="BAGTOP — сумка через плечо"
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 flex flex-col gap-2 p-5">
+                <div>
+                  <h3 className="text-base font-semibold text-white md:text-lg">Кросс-боди</h3>
+                  <p className="text-xs text-white/70">Компактная, регулируемый ремень</p>
+                </div>
+                <div className="flex items-center justify-between gap-3">
+                  <p className="text-2xl font-bold text-white md:text-3xl">19 500 р.</p>
+                  <Button className="h-9 rounded-xl bg-[#C0392B] px-4 text-sm font-medium text-white hover:bg-[#C0392B]/90">
+                    ЗАКАЗАТЬ
+                  </Button>
+                </div>
               </div>
-              <div className="flex flex-col gap-1">
-                <h3 className="text-lg font-semibold tracking-tight text-[#1A1A1A] md:text-xl">
-                  Кросс-боди
-                </h3>
-                <p className="text-sm text-[#777777] md:text-base">Компактная, регулируемый ремень</p>
-              </div>
-              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">19 500 р.</p>
-              <p className="text-xs tracking-tight text-[#777777] md:text-sm">Рассрочка до 3 месяцев</p>
-              <Button className="h-12 w-full rounded-xl bg-[#C0392B] text-base font-medium text-white hover:bg-[#C0392B]/90 md:text-lg">
-                ЗАКАЗАТЬ
-              </Button>
             </Card>
 
             {/* Card 3 */}
-            <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-[#F0F0F0] bg-white p-6 shadow-md md:p-8">
-              <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#FAFAFA]">
-                <img
-                  src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/9c632931-c554-4e64-a626-a77143858659.jpg"
-                  alt="BAGTOP — деловая сумка"
-                  className="h-full w-full object-cover"
-                />
+            <Card className="pricing-card relative aspect-square overflow-hidden rounded-2xl border-0 shadow-md group">
+              <img
+                src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/9c632931-c554-4e64-a626-a77143858659.jpg"
+                alt="BAGTOP — деловая сумка"
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 flex flex-col gap-2 p-5">
+                <div>
+                  <h3 className="text-base font-semibold text-white md:text-lg">Деловая сумка</h3>
+                  <p className="text-xs text-white/70">Вместительная, с отделением для ноутбука</p>
+                </div>
+                <div className="flex items-center justify-between gap-3">
+                  <p className="text-2xl font-bold text-white md:text-3xl">38 700 р.</p>
+                  <Button className="h-9 rounded-xl bg-[#C0392B] px-4 text-sm font-medium text-white hover:bg-[#C0392B]/90">
+                    ЗАКАЗАТЬ
+                  </Button>
+                </div>
               </div>
-              <div className="flex flex-col gap-1">
-                <h3 className="text-lg font-semibold tracking-tight text-[#1A1A1A] md:text-xl">
-                  Деловая сумка
-                </h3>
-                <p className="text-sm text-[#777777] md:text-base">Вместительная, с отделением для ноутбука</p>
-              </div>
-              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">38 700 р.</p>
-              <p className="text-xs tracking-tight text-[#777777] md:text-sm">Рассрочка до 4 месяцев</p>
-              <Button className="h-12 w-full rounded-xl bg-[#C0392B] text-base font-medium text-white hover:bg-[#C0392B]/90 md:text-lg">
-                ЗАКАЗАТЬ
-              </Button>
             </Card>
 
             {/* Card 4 */}
-            <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-[#F0F0F0] bg-white p-6 shadow-md md:p-8">
-              <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#FAFAFA]">
-                <img
-                  src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/a085f210-aee0-46d9-85a6-c0e7a0af96f1.jpg"
-                  alt="BAGTOP — вечерний клатч"
-                  className="h-full w-full object-cover"
-                />
+            <Card className="pricing-card relative aspect-square overflow-hidden rounded-2xl border-0 shadow-md group">
+              <img
+                src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/a085f210-aee0-46d9-85a6-c0e7a0af96f1.jpg"
+                alt="BAGTOP — вечерний клатч"
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 flex flex-col gap-2 p-5">
+                <div>
+                  <h3 className="text-base font-semibold text-white md:text-lg">Вечерний клатч</h3>
+                  <p className="text-xs text-white/70">Элегантный, цепочка в комплекте</p>
+                </div>
+                <div className="flex items-center justify-between gap-3">
+                  <p className="text-2xl font-bold text-white md:text-3xl">14 700 р.</p>
+                  <Button className="h-9 rounded-xl bg-[#C0392B] px-4 text-sm font-medium text-white hover:bg-[#C0392B]/90">
+                    ЗАКАЗАТЬ
+                  </Button>
+                </div>
               </div>
-              <div className="flex flex-col gap-1">
-                <h3 className="text-lg font-semibold tracking-tight text-[#1A1A1A] md:text-xl">
-                  Вечерний клатч
-                </h3>
-                <p className="text-sm text-[#777777] md:text-base">Элегантный, цепочка в комплекте</p>
-              </div>
-              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">14 700 р.</p>
-              <p className="text-xs tracking-tight text-[#777777] md:text-sm">Рассрочка до 2 месяцев</p>
-              <Button className="h-12 w-full rounded-xl bg-[#C0392B] text-base font-medium text-white hover:bg-[#C0392B]/90 md:text-lg">
-                ЗАКАЗАТЬ
-              </Button>
             </Card>
           </div>
         </section>
