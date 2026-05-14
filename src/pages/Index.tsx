@@ -204,52 +204,52 @@ export default function BagtopLandingPage() {
   return (
     <>
       {isLoading && (
-        <div className="fixed inset-0 z-[100000] flex flex-col items-center justify-center bg-[#0E0E0E]">
+        <div className="fixed inset-0 z-[100000] flex flex-col items-center justify-center bg-white">
           <div className="flex flex-col items-center gap-8 px-6">
-            <h1 className="font-serif text-4xl tracking-tight text-white md:text-5xl lg:text-6xl">
+            <h1 className="font-serif text-4xl tracking-tight text-[#1A1A1A] md:text-5xl lg:text-6xl">
               BAG
-              <span className="block text-[#C9A84C]">TOP</span>
+              <span className="block text-[#C0392B]">TOP</span>
             </h1>
 
             <div className="w-full max-w-md">
-              <div className="h-2 w-full overflow-hidden rounded-full bg-[#1E1E1E]">
+              <div className="h-2 w-full overflow-hidden rounded-full bg-[#F0F0F0]">
                 <div
-                  className="h-full rounded-full bg-gradient-to-r from-[#7A6030] to-[#C9A84C] transition-all duration-300 ease-out"
+                  className="h-full rounded-full bg-gradient-to-r from-[#E74C3C] to-[#C0392B] transition-all duration-300 ease-out"
                   style={{ width: `${progress}%` }}
                 />
               </div>
-              <p className="mt-4 text-center text-sm text-[#CCCCCC]">{Math.round(progress)}%</p>
+              <p className="mt-4 text-center text-sm text-[#888888]">{Math.round(progress)}%</p>
             </div>
           </div>
         </div>
       )}
 
-      <main className="w-full overflow-x-hidden bg-[#0E0E0E]">
+      <main className="w-full overflow-x-hidden bg-white">
         {/* Hero */}
         <section
           ref={heroRef}
           className="relative flex min-h-[600px] w-full items-center justify-center px-6 py-16 md:min-h-[800px] md:px-20 md:py-24 lg:min-h-[1030px] lg:px-80"
           style={{
-            backgroundImage: `radial-gradient(74.86% 63.04% at 50% 71.13%, rgba(14, 14, 14, 0) 0%, #0E0E0E 100%), linear-gradient(190.21deg, rgba(14, 14, 14, 0) 48.79%, #0E0E0E 91.19%), url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hero-background-QatnDXVXAGi0F0KCe4tuAQxe2m4T4E.png)`,
+            backgroundImage: `radial-gradient(74.86% 63.04% at 50% 71.13%, rgba(255,255,255,0) 0%, #fff 100%), linear-gradient(190.21deg, rgba(255,255,255,0) 48.79%, #fff 91.19%), url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hero-background-QatnDXVXAGi0F0KCe4tuAQxe2m4T4E.png)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         >
           <div className="flex w-full max-w-7xl flex-col items-center gap-8 md:gap-12 lg:gap-14">
             <div className="hero-content flex flex-col items-center gap-5 text-center">
-              <h1 className="text-balance font-serif text-3xl leading-tight tracking-tight text-white md:text-5xl lg:text-[56px]">
+              <h1 className="text-balance font-serif text-3xl leading-tight tracking-tight text-[#1A1A1A] md:text-5xl lg:text-[56px]">
                 Сумки, которые говорят<br />о вашем стиле
               </h1>
-              <p className="max-w-4xl text-pretty text-base leading-relaxed tracking-tight text-[#CCCCCC] md:text-lg">
+              <p className="max-w-4xl text-pretty text-base leading-relaxed tracking-tight text-[#555555] md:text-lg">
                 BAGTOP — премиальные женские сумки из натуральной кожи. Элегантность, которую вы чувствуете с первого прикосновения.
               </p>
               <div className="flex flex-wrap items-center justify-center gap-2.5">
-                <Button className="h-12 rounded-xl bg-white px-4 font-serif text-base text-[#0E0E0E] hover:bg-white/90 md:text-lg">
+                <Button className="h-12 rounded-xl bg-[#C0392B] px-4 font-serif text-base text-white hover:bg-[#C0392B]/90 md:text-lg">
                   Смотреть коллекцию
                 </Button>
                 <Button
                   variant="outline"
-                  className="h-12 rounded-xl border-[#CCCCCC] bg-transparent font-serif text-base text-white hover:bg-white/10 md:text-lg"
+                  className="h-12 rounded-xl border-[#C0392B] bg-transparent font-serif text-base text-[#C0392B] hover:bg-[#C0392B]/10 md:text-lg"
                 >
                   О бренде
                 </Button>
@@ -269,21 +269,21 @@ export default function BagtopLandingPage() {
         <section ref={benefitsRef} className="w-full px-6 py-16 md:px-20 md:py-24 lg:px-80 lg:py-28">
           <div className="mx-auto flex max-w-7xl flex-col items-start gap-8 lg:flex-row lg:gap-12">
             <div className="benefits-title flex flex-col gap-6 lg:flex-1">
-              <h2 className="text-balance font-serif text-3xl leading-tight tracking-tight text-white md:text-4xl lg:text-5xl">
+              <h2 className="text-balance font-serif text-3xl leading-tight tracking-tight text-[#1A1A1A] md:text-4xl lg:text-5xl">
                 Качество, которое невозможно не заметить
               </h2>
-              <p className="text-pretty text-base leading-relaxed tracking-tight text-white md:text-lg">
+              <p className="text-pretty text-base leading-relaxed tracking-tight text-[#555555] md:text-lg">
                 Каждая сумка BAGTOP создана вручную из отборной натуральной кожи. Мы не идём на компромисс — только premium материалы, точные швы и безупречная фурнитура.
               </p>
             </div>
             <div className="flex flex-col gap-2 lg:flex-1">
-              <div className="benefit-card flex flex-col gap-2 rounded-[20px] bg-gradient-to-r from-[#7A6030] to-[#0E0E0E] p-6 md:p-8">
+              <div className="benefit-card flex flex-col gap-2 rounded-[20px] bg-gradient-to-r from-[#C0392B] to-[#E74C3C] p-6 md:p-8">
                 <h3 className="font-serif text-2xl leading-tight tracking-tight text-white md:text-4xl">Натуральная кожа</h3>
                 <p className="text-sm leading-relaxed tracking-tight text-white md:text-base">
                   Только отборная кожа высшего сорта — мягкая, долговечная, с благородной текстурой.
                 </p>
               </div>
-              <div className="benefit-card flex flex-col gap-2 rounded-[20px] bg-gradient-to-r from-[#7A6030] to-[#0E0E0E] p-6 md:p-8">
+              <div className="benefit-card flex flex-col gap-2 rounded-[20px] bg-gradient-to-r from-[#C0392B] to-[#E74C3C] p-6 md:p-8">
                 <h3 className="font-serif text-2xl leading-tight tracking-tight text-white md:text-4xl">
                   Ручная работа
                 </h3>
@@ -291,7 +291,7 @@ export default function BagtopLandingPage() {
                   Каждое изделие проходит через руки мастера — от раскроя до последнего стежка.
                 </p>
               </div>
-              <div className="benefit-card flex flex-col gap-2 rounded-[20px] bg-gradient-to-r from-[#7A6030] to-[#0E0E0E] p-6 md:p-8">
+              <div className="benefit-card flex flex-col gap-2 rounded-[20px] bg-gradient-to-r from-[#C0392B] to-[#E74C3C] p-6 md:p-8">
                 <h3 className="font-serif text-2xl leading-tight tracking-tight text-white md:text-4xl">
                   Вечная классика
                 </h3>
@@ -314,13 +314,13 @@ export default function BagtopLandingPage() {
               />
             </div>
             <div className="about-content flex flex-col gap-6 lg:flex-1">
-              <h2 className="font-serif text-3xl leading-tight tracking-tight text-white md:text-4xl lg:text-5xl">
+              <h2 className="font-serif text-3xl leading-tight tracking-tight text-[#1A1A1A] md:text-4xl lg:text-5xl">
                 История бренда
               </h2>
-              <p className="text-pretty text-base leading-relaxed tracking-tight text-white md:text-lg">
+              <p className="text-pretty text-base leading-relaxed tracking-tight text-[#555555] md:text-lg">
                 BAGTOP родился из любви к настоящему качеству и женской элегантности. Мы убеждены: сумка — это не просто аксессуар, это продолжение личности. Каждая модель проектируется с вниманием к деталям, удобству и долговечности. Мы выбираем только лучшие материалы и работаем с мастерами, которые вкладывают душу в каждое изделие. BAGTOP — это когда красота и функциональность неразделимы.
               </p>
-              <Button className="h-12 w-full rounded-[20px] bg-gradient-to-r from-[#7A6030] to-[#C9A84C] font-serif text-lg text-white hover:opacity-90 md:text-xl">
+              <Button className="h-12 w-full rounded-[20px] bg-gradient-to-r from-[#C0392B] to-[#E74C3C] font-serif text-lg text-white hover:opacity-90 md:text-xl">
                 Смотреть коллекцию
               </Button>
             </div>
@@ -330,8 +330,8 @@ export default function BagtopLandingPage() {
         {/* Desire */}
         <section ref={desireRef} className="w-full px-6 py-16 md:px-20 md:py-24 lg:px-80 lg:py-28">
           <div className="mx-auto max-w-7xl">
-            <div className="rounded-[40px] border-2 border-[#1E1E1E] bg-[#0E0E0E] px-6 py-12 md:px-12 md:py-16 lg:px-24">
-              <h2 className="mb-8 text-balance text-center font-serif text-3xl leading-tight tracking-tight text-white md:mb-12 md:text-4xl lg:text-[56px]">
+            <div className="rounded-[40px] border-2 border-[#F0F0F0] bg-[#FAFAFA] px-6 py-12 md:px-12 md:py-16 lg:px-24">
+              <h2 className="mb-8 text-balance text-center font-serif text-3xl leading-tight tracking-tight text-[#1A1A1A] md:mb-12 md:text-4xl lg:text-[56px]">
                 Почувствуйте разницу настоящего премиума
               </h2>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-8">
@@ -372,13 +372,13 @@ export default function BagtopLandingPage() {
               />
             </div>
             <div className="instigate-content flex flex-col gap-6 lg:flex-1">
-              <h2 className="font-serif text-3xl leading-tight tracking-tight text-white md:text-4xl lg:text-5xl">
+              <h2 className="font-serif text-3xl leading-tight tracking-tight text-[#1A1A1A] md:text-4xl lg:text-5xl">
                 Каждая деталь имеет значение
               </h2>
-              <p className="text-pretty text-base leading-relaxed tracking-tight text-white md:text-lg">
+              <p className="text-pretty text-base leading-relaxed tracking-tight text-[#555555] md:text-lg">
                 Молнии, замки, кольца — только качественная металлическая фурнитура. Подкладка из плотной ткани. Ремни с регулировкой. Внутренние карманы продуманы так, чтобы всё было под рукой. BAGTOP — это не просто красивая внешность, это сумка, которая работает каждый день.
               </p>
-              <Button className="h-12 w-full rounded-[20px] bg-gradient-to-r from-[#7A6030] to-[#C9A84C] font-serif text-lg text-white hover:opacity-90 md:text-xl">
+              <Button className="h-12 w-full rounded-[20px] bg-gradient-to-r from-[#C0392B] to-[#E74C3C] font-serif text-lg text-white hover:opacity-90 md:text-xl">
                 Выбрать свою сумку
               </Button>
             </div>
@@ -389,29 +389,29 @@ export default function BagtopLandingPage() {
         <section ref={whyRef} className="w-full px-6 py-16 md:px-20 md:py-24 lg:px-80 lg:py-28">
           <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 lg:flex-row lg:gap-12">
             <div className="why-content flex flex-col gap-6 lg:flex-1">
-              <h2 className="font-serif text-3xl leading-tight tracking-tight text-white md:text-4xl lg:text-5xl">
+              <h2 className="font-serif text-3xl leading-tight tracking-tight text-[#1A1A1A] md:text-4xl lg:text-5xl">
                 Почему выбирают BAGTOP?
               </h2>
               <div className="flex flex-col gap-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#C9A84C] text-black font-bold">1</div>
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#C0392B] text-white font-bold">1</div>
                   <div>
-                    <h3 className="font-semibold text-white md:text-lg">Проверено временем</h3>
-                    <p className="text-sm text-white/55 md:text-base">Сумки BAGTOP служат годами без потери внешнего вида.</p>
+                    <h3 className="font-semibold text-[#1A1A1A] md:text-lg">Проверено временем</h3>
+                    <p className="text-sm text-[#777777] md:text-base">Сумки BAGTOP служат годами без потери внешнего вида.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#C9A84C] text-black font-bold">2</div>
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#C0392B] text-white font-bold">2</div>
                   <div>
-                    <h3 className="font-semibold text-white md:text-lg">Подходит к любому образу</h3>
-                    <p className="text-sm text-white/55 md:text-base">Классические силуэты, которые дополняют любой стиль — от делового до повседневного.</p>
+                    <h3 className="font-semibold text-[#1A1A1A] md:text-lg">Подходит к любому образу</h3>
+                    <p className="text-sm text-[#777777] md:text-base">Классические силуэты, которые дополняют любой стиль — от делового до повседневного.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#C9A84C] text-black font-bold">3</div>
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#C0392B] text-white font-bold">3</div>
                   <div>
-                    <h3 className="font-semibold text-white md:text-lg">Гарантия качества</h3>
-                    <p className="text-sm text-white/55 md:text-base">Мы несём ответственность за каждое изделие и готовы помочь с любым вопросом.</p>
+                    <h3 className="font-semibold text-[#1A1A1A] md:text-lg">Гарантия качества</h3>
+                    <p className="text-sm text-[#777777] md:text-base">Мы несём ответственность за каждое изделие и готовы помочь с любым вопросом.</p>
                   </div>
                 </div>
               </div>
@@ -430,8 +430,8 @@ export default function BagtopLandingPage() {
         <section ref={pricingRef} className="w-full px-6 py-16 md:px-20 md:py-24 lg:px-[420px] lg:py-28">
           <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
             {/* Card 1 */}
-            <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-white/10 bg-gradient-to-br from-[#333333] to-[#0E0E0E] p-6 shadow-lg md:p-8">
-              <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#7A6030]">
+            <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-[#F0F0F0] bg-white p-6 shadow-md md:p-8">
+              <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#FAFAFA]">
                 <img
                   src="/images/design-mode/image-card-01.png"
                   alt="BAGTOP — классическая сумка-тоут"
@@ -439,21 +439,21 @@ export default function BagtopLandingPage() {
                 />
               </div>
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg font-semibold tracking-tight text-white md:text-xl">
+                <h3 className="text-lg font-semibold tracking-tight text-[#1A1A1A] md:text-xl">
                   Классическая тоут
                 </h3>
-                <p className="text-sm text-white/55 md:text-base">Натуральная кожа, 3 цвета</p>
+                <p className="text-sm text-[#777777] md:text-base">Натуральная кожа, 3 цвета</p>
               </div>
-              <p className="text-4xl font-bold tracking-tight text-white md:text-5xl">8 900 р.</p>
-              <p className="text-xs tracking-tight text-white md:text-sm">Рассрочка до 3 месяцев</p>
-              <Button className="h-12 w-full rounded-xl bg-[#C9A84C] text-base font-medium text-[#0E0E0E] hover:bg-[#C9A84C]/90 md:text-lg">
+              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">8 900 р.</p>
+              <p className="text-xs tracking-tight text-[#777777] md:text-sm">Рассрочка до 3 месяцев</p>
+              <Button className="h-12 w-full rounded-xl bg-[#C0392B] text-base font-medium text-white hover:bg-[#C0392B]/90 md:text-lg">
                 ЗАКАЗАТЬ
               </Button>
             </Card>
 
             {/* Card 2 */}
-            <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-white/10 bg-gradient-to-br from-[#333333] to-[#0E0E0E] p-6 shadow-lg md:p-8">
-              <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#7A6030]">
+            <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-[#F0F0F0] bg-white p-6 shadow-md md:p-8">
+              <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#FAFAFA]">
                 <img
                   src="/images/design-mode/image-card-02.png"
                   alt="BAGTOP — сумка через плечо"
@@ -461,21 +461,21 @@ export default function BagtopLandingPage() {
                 />
               </div>
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg font-semibold tracking-tight text-white md:text-xl">
+                <h3 className="text-lg font-semibold tracking-tight text-[#1A1A1A] md:text-xl">
                   Кросс-боди
                 </h3>
-                <p className="text-sm text-white/55 md:text-base">Компактная, регулируемый ремень</p>
+                <p className="text-sm text-[#777777] md:text-base">Компактная, регулируемый ремень</p>
               </div>
-              <p className="text-4xl font-bold tracking-tight text-white md:text-5xl">6 500 р.</p>
-              <p className="text-xs tracking-tight text-white md:text-sm">Рассрочка до 3 месяцев</p>
-              <Button className="h-12 w-full rounded-xl bg-[#C9A84C] text-base font-medium text-[#0E0E0E] hover:bg-[#C9A84C]/90 md:text-lg">
+              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">6 500 р.</p>
+              <p className="text-xs tracking-tight text-[#777777] md:text-sm">Рассрочка до 3 месяцев</p>
+              <Button className="h-12 w-full rounded-xl bg-[#C0392B] text-base font-medium text-white hover:bg-[#C0392B]/90 md:text-lg">
                 ЗАКАЗАТЬ
               </Button>
             </Card>
 
             {/* Card 3 */}
-            <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-white/10 bg-gradient-to-br from-[#333333] to-[#0E0E0E] p-6 shadow-lg md:p-8">
-              <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#7A6030]">
+            <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-[#F0F0F0] bg-white p-6 shadow-md md:p-8">
+              <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#FAFAFA]">
                 <img
                   src="/images/design-mode/image-card-03.png"
                   alt="BAGTOP — деловая сумка"
@@ -483,21 +483,21 @@ export default function BagtopLandingPage() {
                 />
               </div>
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg font-semibold tracking-tight text-white md:text-xl">
+                <h3 className="text-lg font-semibold tracking-tight text-[#1A1A1A] md:text-xl">
                   Деловая сумка
                 </h3>
-                <p className="text-sm text-white/55 md:text-base">Вместительная, с отделением для ноутбука</p>
+                <p className="text-sm text-[#777777] md:text-base">Вместительная, с отделением для ноутбука</p>
               </div>
-              <p className="text-4xl font-bold tracking-tight text-white md:text-5xl">12 900 р.</p>
-              <p className="text-xs tracking-tight text-white md:text-sm">Рассрочка до 4 месяцев</p>
-              <Button className="h-12 w-full rounded-xl bg-[#C9A84C] text-base font-medium text-[#0E0E0E] hover:bg-[#C9A84C]/90 md:text-lg">
+              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">12 900 р.</p>
+              <p className="text-xs tracking-tight text-[#777777] md:text-sm">Рассрочка до 4 месяцев</p>
+              <Button className="h-12 w-full rounded-xl bg-[#C0392B] text-base font-medium text-white hover:bg-[#C0392B]/90 md:text-lg">
                 ЗАКАЗАТЬ
               </Button>
             </Card>
 
             {/* Card 4 */}
-            <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-white/10 bg-gradient-to-br from-[#333333] to-[#0E0E0E] p-6 shadow-lg md:p-8">
-              <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#7A6030]">
+            <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-[#F0F0F0] bg-white p-6 shadow-md md:p-8">
+              <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#FAFAFA]">
                 <img
                   src="/images/design-mode/image-card-04.png"
                   alt="BAGTOP — вечерний клатч"
@@ -505,14 +505,14 @@ export default function BagtopLandingPage() {
                 />
               </div>
               <div className="flex flex-col gap-1">
-                <h3 className="text-lg font-semibold tracking-tight text-white md:text-xl">
+                <h3 className="text-lg font-semibold tracking-tight text-[#1A1A1A] md:text-xl">
                   Вечерний клатч
                 </h3>
-                <p className="text-sm text-white/55 md:text-base">Элегантный, цепочка в комплекте</p>
+                <p className="text-sm text-[#777777] md:text-base">Элегантный, цепочка в комплекте</p>
               </div>
-              <p className="text-4xl font-bold tracking-tight text-white md:text-5xl">4 900 р.</p>
-              <p className="text-xs tracking-tight text-white md:text-sm">Рассрочка до 2 месяцев</p>
-              <Button className="h-12 w-full rounded-xl bg-[#C9A84C] text-base font-medium text-[#0E0E0E] hover:bg-[#C9A84C]/90 md:text-lg">
+              <p className="text-4xl font-bold tracking-tight text-[#C0392B] md:text-5xl">4 900 р.</p>
+              <p className="text-xs tracking-tight text-[#777777] md:text-sm">Рассрочка до 2 месяцев</p>
+              <Button className="h-12 w-full rounded-xl bg-[#C0392B] text-base font-medium text-white hover:bg-[#C0392B]/90 md:text-lg">
                 ЗАКАЗАТЬ
               </Button>
             </Card>
@@ -522,11 +522,11 @@ export default function BagtopLandingPage() {
         {/* CTA */}
         <section ref={ctaRef} className="w-full px-6 py-16 md:px-20 md:py-24 lg:px-[420px] lg:py-28">
           <div className="mx-auto max-w-5xl">
-            <div className="cta-box flex flex-col items-center gap-6 rounded-[20px] bg-gradient-to-r from-[#7A6030] to-[#C9A84C] p-6 md:flex-row md:gap-8 md:p-12 lg:p-16">
+            <div className="cta-box flex flex-col items-center gap-6 rounded-[20px] bg-gradient-to-r from-[#C0392B] to-[#E74C3C] p-6 md:flex-row md:gap-8 md:p-12 lg:p-16">
               <p className="flex-1 text-balance text-center font-semibold leading-tight tracking-tight text-white md:text-left md:text-2xl lg:text-[26px]">
                 Хотите найти свою идеальную сумку? Напишите нам — поможем с выбором!
               </p>
-              <Button className="h-12 w-full rounded-xl bg-[#0E0E0E] text-base text-white hover:bg-[#0E0E0E]/90 md:w-auto md:px-8 md:text-lg">
+              <Button className="h-12 w-full rounded-xl bg-white text-base text-[#C0392B] hover:bg-white/90 md:w-auto md:px-8 md:text-lg font-semibold">
                 Написать нам
               </Button>
             </div>
@@ -534,12 +534,12 @@ export default function BagtopLandingPage() {
         </section>
 
         {/* Footer */}
-        <footer className="w-full border-t border-[#333333] px-6 py-12 md:px-20 lg:px-[420px]">
+        <footer className="w-full border-t border-[#F0F0F0] px-6 py-12 md:px-20 lg:px-[420px]">
           <div className="mx-auto flex max-w-5xl flex-col items-center justify-center gap-6">
-            <h2 className="font-serif text-2xl tracking-tight text-white md:text-3xl">
-              BAG<span className="text-[#C9A84C]">TOP</span>
+            <h2 className="font-serif text-2xl tracking-tight text-[#1A1A1A] md:text-3xl">
+              BAG<span className="text-[#C0392B]">TOP</span>
             </h2>
-            <p className="text-center text-sm leading-relaxed tracking-tight text-white/55 md:text-base">
+            <p className="text-center text-sm leading-relaxed tracking-tight text-[#777777] md:text-base">
               2026 — BAGTOP. Все права защищены.
             </p>
           </div>
