@@ -10,7 +10,6 @@ export default function BagtopLandingPage() {
   const [isLoading, setIsLoading] = useState(true)
   const [progress, setProgress] = useState(0)
 
-  const marqueeRef = useRef<HTMLDivElement>(null)
   const heroRef = useRef<HTMLDivElement>(null)
   const benefitsRef = useRef<HTMLElement>(null)
   const aboutRef = useRef<HTMLElement>(null)
@@ -46,20 +45,6 @@ export default function BagtopLandingPage() {
     if (isLoading) return
 
     const ctx = gsap.context(() => {
-      if (marqueeRef.current) {
-        const marqueeContent = marqueeRef.current.querySelector(".marquee-content")
-        if (marqueeContent) {
-          const marqueeWidth = marqueeContent.scrollWidth / 2
-
-          gsap.to(marqueeContent, {
-            x: -marqueeWidth,
-            duration: 20,
-            ease: "none",
-            repeat: -1,
-          })
-        }
-      }
-
       gsap.from(heroRef.current?.querySelector(".hero-content"), {
         opacity: 0,
         y: 60,
@@ -240,62 +225,6 @@ export default function BagtopLandingPage() {
       )}
 
       <main className="w-full overflow-x-hidden bg-[#0E0E0E]">
-        {/* Marquee */}
-        <div ref={marqueeRef} className="w-full overflow-hidden bg-[#7A6030] py-4">
-          <div className="marquee-content flex items-center gap-4 whitespace-nowrap">
-            <div className="flex items-center justify-center rounded-xl bg-white px-6 py-1.5 md:px-8">
-              <span className="font-serif text-xs font-normal text-black md:text-sm">ПРОМОКОД: BAGTOP10</span>
-            </div>
-            <div className="flex items-center justify-center rounded-xl px-4 py-1.5 md:px-6">
-              <span className="font-serif text-xs font-normal text-white md:text-sm">
-                СКИДКА 10% НА ПЕРВЫЙ ЗАКАЗ
-              </span>
-            </div>
-            <div className="flex items-center justify-center rounded-xl bg-white px-6 py-1.5 md:px-8">
-              <span className="font-serif text-xs font-normal text-black md:text-sm">ПРОМОКОД: BAGTOP10</span>
-            </div>
-            <div className="flex items-center justify-center rounded-xl px-4 py-1.5 md:px-6">
-              <span className="font-serif text-xs font-normal text-white md:text-sm">
-                БЕСПЛАТНАЯ ДОСТАВКА ОТ 5 000 Р.
-              </span>
-            </div>
-            <div className="flex items-center justify-center rounded-xl bg-white px-6 py-1.5 md:px-8">
-              <span className="font-serif text-xs font-normal text-black md:text-sm">ПРОМОКОД: BAGTOP10</span>
-            </div>
-            <div className="flex items-center justify-center rounded-xl px-4 py-1.5 md:px-6">
-              <span className="font-serif text-xs font-normal text-white md:text-sm">
-                СКИДКА 10% НА ПЕРВЫЙ ЗАКАЗ
-              </span>
-            </div>
-
-            {/* Duplicated for seamless loop */}
-            <div className="flex items-center justify-center rounded-xl bg-white px-6 py-1.5 md:px-8">
-              <span className="font-serif text-xs font-normal text-black md:text-sm">ПРОМОКОД: BAGTOP10</span>
-            </div>
-            <div className="flex items-center justify-center rounded-xl px-4 py-1.5 md:px-6">
-              <span className="font-serif text-xs font-normal text-white md:text-sm">
-                БЕСПЛАТНАЯ ДОСТАВКА ОТ 5 000 Р.
-              </span>
-            </div>
-            <div className="flex items-center justify-center rounded-xl bg-white px-6 py-1.5 md:px-8">
-              <span className="font-serif text-xs font-normal text-black md:text-sm">ПРОМОКОД: BAGTOP10</span>
-            </div>
-            <div className="flex items-center justify-center rounded-xl px-4 py-1.5 md:px-6">
-              <span className="font-serif text-xs font-normal text-white md:text-sm">
-                СКИДКА 10% НА ПЕРВЫЙ ЗАКАЗ
-              </span>
-            </div>
-            <div className="flex items-center justify-center rounded-xl bg-white px-6 py-1.5 md:px-8">
-              <span className="font-serif text-xs font-normal text-black md:text-sm">ПРОМОКОД: BAGTOP10</span>
-            </div>
-            <div className="flex items-center justify-center rounded-xl px-4 py-1.5 md:px-6">
-              <span className="font-serif text-xs font-normal text-white md:text-sm">
-                БЕСПЛАТНАЯ ДОСТАВКА ОТ 5 000 Р.
-              </span>
-            </div>
-          </div>
-        </div>
-
         {/* Hero */}
         <section
           ref={heroRef}
