@@ -518,8 +518,8 @@ export default function BagtopLandingPage() {
         {/* CTA */}
         <section ref={ctaRef} className="w-full px-6 py-16 md:px-20 md:py-24 lg:px-[420px] lg:py-28">
           <div className="mx-auto max-w-5xl">
-            <div className="cta-box flex flex-col items-center gap-6 rounded-[20px] bg-gradient-to-r from-[#C0392B] to-[#E74C3C] p-6 md:flex-row md:gap-8 md:p-12 lg:p-16">
-              <p className="flex-1 text-balance text-center font-semibold leading-tight tracking-tight text-white md:text-left md:text-2xl lg:text-[26px]">
+            <div className="cta-box flex flex-col items-center gap-6 rounded-[20px] bg-gradient-to-r from-[#C0392B] to-[#E74C3C] p-6 md:p-12 lg:p-16">
+              <p className="text-balance text-center font-semibold leading-tight tracking-tight text-white md:text-2xl lg:text-[26px]">
                 Хотите найти свою идеальную сумку? Напишите нам — поможем с выбором!
               </p>
               <Button className="h-12 w-full rounded-xl bg-white text-base text-[#C0392B] hover:bg-white/90 md:w-auto md:px-8 md:text-lg font-semibold">
