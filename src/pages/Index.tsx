@@ -257,7 +257,7 @@ export default function BagtopLandingPage() {
             </div>
             <div className="hero-image relative h-[300px] w-full max-w-2xl md:h-[400px] lg:h-[583px] lg:max-w-[884px]">
               <img
-                src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/74be0152-ec73-44e0-a20a-d78fd0893908.jpg"
+                src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/2c9e277d-198b-4d4b-91bf-3708fa9ffe51.jpg"
                 alt="BAGTOP — премиальные женские сумки"
                 className="h-full w-full object-contain"
               />
@@ -308,7 +308,7 @@ export default function BagtopLandingPage() {
           <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 lg:flex-row lg:gap-12">
             <div className="about-image w-full lg:flex-1">
               <img
-                src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/37de29b0-4432-487f-b58e-a54829b029b2.jpg"
+                src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/8752fbef-f4e8-40ff-93c9-617253759cd4.jpg"
                 alt="Коллекция сумок BAGTOP"
                 className="h-auto w-full rounded-2xl object-cover"
               />
@@ -337,21 +337,21 @@ export default function BagtopLandingPage() {
               <div className="grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-8">
                 <div className="desire-image overflow-hidden rounded-2xl rounded-b-none">
                   <img
-                    src="/images/design-mode/desire-image-01.png"
+                    src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/682791a1-2c32-46bf-b5f0-5b0a60b0177b.jpg"
                     alt="Сумка BAGTOP — деталь"
                     className="h-[300px] w-full object-cover transition-transform duration-500 hover:scale-105 md:h-[400px]"
                   />
                 </div>
                 <div className="desire-image overflow-hidden rounded-2xl rounded-b-none md:mt-12">
                   <img
-                    src="/images/design-mode/desire-image-02.png"
+                    src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/3636ff73-f6ba-49f2-97bc-24f84ab7092f.jpg"
                     alt="Сумка BAGTOP — стиль"
                     className="h-[300px] w-full object-cover transition-transform duration-500 hover:scale-105 md:h-[400px]"
                   />
                 </div>
                 <div className="desire-image overflow-hidden rounded-2xl rounded-b-none">
                   <img
-                    src="/images/design-mode/desire-image-03.png"
+                    src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/f3029810-8fa0-4e8f-a806-0c5679901cd9.jpg"
                     alt="Сумка BAGTOP — образ жизни"
                     className="h-[300px] w-full object-cover transition-transform duration-500 hover:scale-105 md:h-[400px]"
                   />
@@ -366,7 +366,7 @@ export default function BagtopLandingPage() {
           <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 lg:flex-row-reverse lg:gap-12">
             <div className="instigate-image w-full lg:flex-1">
               <img
-                src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/17cbb739-66b5-4a39-83bc-1f0c4fcf384e.jpg"
+                src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/21afe72c-12ad-4d13-ac1f-a77e2f0c3541.jpg"
                 alt="Детали сумки BAGTOP"
                 className="h-auto w-full rounded-2xl object-cover"
               />
@@ -418,7 +418,7 @@ export default function BagtopLandingPage() {
             </div>
             <div className="why-image w-full lg:flex-1">
               <img
-                src="/images/design-mode/why-image.png"
+                src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/3636ff73-f6ba-49f2-97bc-24f84ab7092f.jpg"
                 alt="Почему BAGTOP"
                 className="h-auto w-full rounded-2xl object-cover"
               />
@@ -433,7 +433,7 @@ export default function BagtopLandingPage() {
             <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-[#F0F0F0] bg-white p-6 shadow-md md:p-8">
               <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#FAFAFA]">
                 <img
-                  src="/images/design-mode/image-card-01.png"
+                  src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/682791a1-2c32-46bf-b5f0-5b0a60b0177b.jpg"
                   alt="BAGTOP — классическая сумка-тоут"
                   className="h-full w-full object-cover"
                 />
@@ -455,7 +455,7 @@ export default function BagtopLandingPage() {
             <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-[#F0F0F0] bg-white p-6 shadow-md md:p-8">
               <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#FAFAFA]">
                 <img
-                  src="/images/design-mode/image-card-02.png"
+                  src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/f3029810-8fa0-4e8f-a806-0c5679901cd9.jpg"
                   alt="BAGTOP — сумка через плечо"
                   className="h-full w-full object-cover"
                 />
@@ -477,7 +477,7 @@ export default function BagtopLandingPage() {
             <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-[#F0F0F0] bg-white p-6 shadow-md md:p-8">
               <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#FAFAFA]">
                 <img
-                  src="/images/design-mode/image-card-03.png"
+                  src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/9c632931-c554-4e64-a626-a77143858659.jpg"
                   alt="BAGTOP — деловая сумка"
                   className="h-full w-full object-cover"
                 />
@@ -499,7 +499,7 @@ export default function BagtopLandingPage() {
             <Card className="pricing-card flex flex-col gap-4 rounded-2xl border border-[#F0F0F0] bg-white p-6 shadow-md md:p-8">
               <div className="aspect-square w-full overflow-hidden rounded-[20px] bg-[#FAFAFA]">
                 <img
-                  src="/images/design-mode/image-card-04.png"
+                  src="https://cdn.poehali.dev/projects/c53a7eee-e772-4a63-8b96-6ac28cf9c61a/files/a085f210-aee0-46d9-85a6-c0e7a0af96f1.jpg"
                   alt="BAGTOP — вечерний клатч"
                   className="h-full w-full object-cover"
                 />
